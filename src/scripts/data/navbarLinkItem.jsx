@@ -19,6 +19,10 @@ const navbarLinkItem = [
     link: "Tentang Kami",
     to: "/tentang-kami",
   },
+  {
+    link: "Cuaca",
+    to: "/cuaca",
+  },
 ];
 
 export default navbarLinkItem;

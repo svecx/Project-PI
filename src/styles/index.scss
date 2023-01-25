@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
+    text-decoration: none;
 }
 #root{
     width: 100%;
@@ -21,7 +22,7 @@
     align-items: center;
 }
 
-a{
+div.a{
     font-family: 'Manrope', sans-serif;
     text-decoration: none;
     color: white;
@@ -30,3 +31,10 @@ a{
 .about-logo-section{
     width: 150px;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+  }
+a:hover{
+    color: #fff;
+  }

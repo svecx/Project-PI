@@ -16,7 +16,7 @@ export default function HeadingText({ headingText }) {
         color: "#2E582C",
         my: 1,
         padding: "12px",
-        borderTop: "3px solid #CFFE64",
+        // borderTop: "3px solid #CFFE64",
         textAlign: "center",
       }}
     >

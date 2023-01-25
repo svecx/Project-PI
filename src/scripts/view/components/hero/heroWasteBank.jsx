@@ -87,7 +87,7 @@ export default function HeroWasteBank() {
             },
           }}
         >
-          Alih-alih membuang sampah sembarangan, ubah sampah Anda menjadi
+          Jangan membuang sampah sembarangan, ubah sampah Anda menjadi
           keuntungan dan jadikan lingkungan lebih bersih.
         </Typography>
       </Box>

@@ -45,7 +45,7 @@ const CustomButton = ({
   }));
 
   return (
-    <CustomButton>
+    <CustomButton className="buttonss">
       <Link to={navigation}>{textButton}</Link>
     </CustomButton>
   );

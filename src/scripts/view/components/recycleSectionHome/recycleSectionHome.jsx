@@ -100,6 +100,7 @@ export default function RecycleSectionHome() {
           color="#2E582C"
           textButton="Cara Daur Ulang"
           moreBtn={true}
+          navigation="daur-ulang"
         />
       </Box>
     </Container>

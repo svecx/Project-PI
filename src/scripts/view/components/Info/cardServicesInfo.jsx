@@ -25,7 +25,7 @@ export default function CardInfo({ number, title, content }) {
       <Box
         sx={{
           height: "100%",
-          borderRight: "2px solid #F5F5F5",
+          borderRight: "2px solid #6c6c6c",
           padding: "12px 8px",
         }}
       >
@@ -35,7 +35,7 @@ export default function CardInfo({ number, title, content }) {
             fontFamily: "Manrope",
             fontSize: "40px",
             fontWeight: "500",
-            color: "#F5F5F5",
+            color: "#6c6c6c",
           }}
         >
           {number}

@@ -84,15 +84,14 @@ export default function HeroAboutUs() {
               },
             }}
           >
-            Daulsa merupakan sebuah aplikasi berbasis web yang kami rancang,
-            yang memfasilitasi masyarakat untuk melakukan pengelolaan sampah
-            menjadi uang, dimana aplikasi ini sangat berguna dan mudah
-            digunakan. Seiring dengan berkembangnya Teknologi maka kami mencoba
-            berinovasi dan memfasilitasi masyarakat tidak hanyak sekedar menukar
-            sampah, juga kami sediakan cara pengolahan sampah, edukasi jenis
-            sampah, dan beberapa informasi yang berguna yang tentunya berkaitan
-            dengan sampah, sehingga lingkungan bersih dan juga mendapat
-            keuntungan
+            Daulsa merupakan aplikasi berbasis web yang dirancang untuk
+            memudahkan pengelolaan sampah menjadi uang, aplikasi ini sangat
+            bermanfaat dan mudah digunakan. Seiring dengan perkembangan
+            teknologi, kami mengupayakan inovasi dan fasilitasi masyarakat,
+            tidak hanya pada daur ulang sampah, kami juga menyediakan cara-cara
+            mengatasi sampah, edukasi tentang jenis-jenis sampah dan informasi
+            bermanfaat yang berkaitan dengan daur ulang sampah. agar lingkungan
+            bersih dan mendapatkan keuntungan juga.
           </Typography>
         </Box>
         <AboutLogo />

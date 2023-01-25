@@ -14,13 +14,13 @@ const dataReasonInformation = [
   {
     id: "2",
     title: "Terpercaya",
-    content: "Permudah pengelolaan sampah Anda",
+    content: "Permudah pengelolaan sampah Yang Anda Punya",
     Icon: HiOutlineHandThumbUp,
   },
   {
     id: "3",
     title: "Aman",
-    content: "Transaksi yang di lakukan sangat cepat dan mudah.",
+    content: "Transaksi dapat dilakukan sangat cepat dan mudah.",
     Icon: HiOutlineShieldCheck,
   },
 ];

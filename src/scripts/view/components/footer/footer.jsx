@@ -1,19 +1,11 @@
 import React from "react";
 import { styled } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import { FaMapMarkerAlt } from "react-icons/fa";
 import FooterLink from "./footerLink";
 import NavbarBrand from "../navbar/navbarBrand";
 import SocialMediaFooter from "./socialMediaFooter";
 
 export default function Footer() {
-  const TextWithIcon = styled("div")(() => ({
-    fontFamily: "Manrope",
-    fontWeight: 400,
-    fontSize: "12px",
-    color: "#E7E7E7",
-  }));
-
   const FooterTextLink = styled("p")(() => ({
     fontWeight: 400,
     fontSize: "14px",
@@ -71,28 +63,7 @@ export default function Footer() {
           Daulsa adalah platform bank sampah digital untuk membantu dan
           memudahkan masyarakat dalam pengelolaan sampah.
         </FooterTextLink>
-        <TextWithIcon
-          sx={{
-            display: "flex",
-            justifyContent: "flex-start",
-            alignItems: "center",
-            gap: "12px",
-          }}
-        >
-          <FaMapMarkerAlt />
-          <FooterTextLink>Jl. Soerkarno Hatta, No.12</FooterTextLink>
-        </TextWithIcon>
-        <TextWithIcon
-          sx={{
-            display: "flex",
-            justifyContent: "flex-start",
-            alignItems: "center",
-            gap: "12px",
-          }}
-        >
-          <FaMapMarkerAlt />
-          <FooterTextLink>Jam 08.00 - 17.00</FooterTextLink>
-        </TextWithIcon>
+
       </Box>
       <FooterLink />
       <SocialMediaFooter />

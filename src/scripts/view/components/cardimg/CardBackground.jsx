@@ -28,54 +28,54 @@ const CardBackground = () => {
           },
         }}
       >
-        <Box className="card-grid">
-          <Link className="card" href="#">
+        <Box className="carding-grid">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/d.jpg)" />
-            <Box className="card__content">
-              <h3 className="card__heading">Celengan</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Cangkir</h3>
             </Box>
           </Link>
-          <Link className="card" href="#">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/e.jpg)" />
-            <Box className="card__content">
-              <h3 className="card__heading">Vas Bunga</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Vas</h3>
             </Box>
           </Link>
-          <Link className="card" href="#">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/f.jpg)" />
-            <Box className="card__content">
-              <h3 className="card__heading">Vas Bunga</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Dekorasi</h3>
             </Box>
           </Link>
-          <Link className="card" href="#">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/g.jpg)" />
-            <Box className="card__content">
-              <h3 className="card__heading">Piring</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Piring</h3>
             </Box>
           </Link>
-          <Link className="card" href="#">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/h.jpg)" />
-            <Box className="card__content">
-              <h3 className="card__heading">Miniatur sampah</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Hiasan</h3>
             </Box>
           </Link>
-          <Link className="card" href="#">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/i.jpg)" />
-            <Box className="card__content">
-              <h3 className="card__heading">Totbag</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Totebag</h3>
             </Box>
           </Link>
-          <Link className="card" href="#">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/l.jpg)" />
-            <Box className="card__content">
-              <h3 className="card__heading">Kotak Pensil</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Gelas</h3>
             </Box>
           </Link>
-          <Link className="card" href="#">
+          <Link className="carding" href="#">
             <Cardimg backgroundImage=" url(./images/k.jpg)" />
 
-            <Box className="card__content">
-              <h3 className="card__heading">Miniatur</h3>
+            <Box className="carding__content">
+              <h3 className="carding__heading">Ornamen</h3>
             </Box>
           </Link>
         </Box>

@@ -55,51 +55,27 @@ const Card = () => {
           color: "#2E582C",
           my: 3,
           padding: "12px",
-          borderTop: "3px solid #CFFE64",
+          // borderTop: "3px solid #CFFE64",
         }}
       >
-        Tim Kami
+        Tentang Saya
       </Typography>
 
       <GuidesBox>
-        {/* <GuideBox>
-          <Cards sx={{ maxWidth: 355 }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={process.env.PUBLIC_URL + "/images/avatar1.png"}
-              alt="ihsan"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Ihsan
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Universitas Gunadarma | Teknik Informatika
-              </Typography>
-            </CardContent>
-          </Cards>
-
-          <Box
-            sx={{
-              cursor: "pointer",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          ></Box>
-        </GuideBox> */}
         <GuideBox>
-          <Cards sx={{ maxWidth: 345 }}>
+          <Cards sx={{ maxHeight: 445 }}>
             <CardMedia
               component="img"
-              height="140"
-              image={process.env.PUBLIC_URL + "/images/avatar2.png"}
+              height="340"
+              image={process.env.PUBLIC_URL + "/images/56419075 .jpg"}
               alt="Sinatra"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Sinatra
+                Sinatra Kusuma
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                4IA02 ~ 56419075
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Universitas Gunadarma | Teknik Informatika
@@ -116,60 +92,6 @@ const Card = () => {
             }}
           ></Box>
         </GuideBox>
-        {/* <GuideBox>
-          <Cards sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={process.env.PUBLIC_URL + "/images/avatar3.png"}
-              alt="Ervan"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Ervan
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Universitas Komputer Indonesia | Sistem Informasi
-              </Typography>
-            </CardContent>
-          </Cards>
-
-          <Box
-            sx={{
-              cursor: "pointer",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          ></Box>
-        </GuideBox>
-        <GuideBox>
-          <Cards sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={process.env.PUBLIC_URL + "/images/avatar4.png"}
-              alt="Enzi"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Enzi
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Politeknik Negeri Padang | Teknologi Informasi
-              </Typography>
-            </CardContent>
-          </Cards>
-
-          <Box
-            sx={{
-              cursor: "pointer",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          ></Box>
-        </GuideBox> */}
       </GuidesBox>
     </Container>
   );

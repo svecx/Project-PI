@@ -33,7 +33,7 @@ export default function AboutLogo() {
       >
         <img
           className="about-logo-section"
-          src={process.env.PUBLIC_URL + "./svg/logo.svg"}
+          src={process.env.PUBLIC_URL + "./svg/Asset 3s.svg"}
           alt="Daulsa"
           style={{
             width: {

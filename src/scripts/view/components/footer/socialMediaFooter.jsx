@@ -32,12 +32,12 @@ export default function SocialMediaFooter() {
           gap: "12px",
         }}
       >
-        <Link to="/" className="media-icon">
+        <a href="https://www.facebook.com/groups/442974152553174" target="_blank" className="media-icon">
           <FaFacebook size={24} />
-        </Link>
-        <Link to="/" className="media-icon">
+        </a>
+        <a href="https://www.facebook.com/groups/442974152553174" target="_blank" className="media-icon">
           <FaInstagram size={24} />
-        </Link>
+        </a>
         <Link to="/" className="media-icon">
           <FaYoutube size={24} />
         </Link>

@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WasteBank from "./pages/wasteBank/WasteBank";
 import Invoice from "./pages/invoice/Invoice";
 import Services from "./pages/services/Services";
-
+import Cuaca from "./pages/weather/Weather";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +17,7 @@ function App() {
         <Route path="layanan" element={<Services />} />
         <Route path="tentang-kami" element={<About />} />
         <Route path="bank-sampah/invoice/:id" element={<Invoice />} />
+        <Route path="cuaca" element={<Cuaca />} />
       </Routes>
     </BrowserRouter>
   );

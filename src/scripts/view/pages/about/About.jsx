@@ -2,10 +2,8 @@ import React from "react";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
 import Card from "../../components/card/Card";
-import Article from "../../components/article/Article";
 import HeadingSectionText from "../../components/headingSectionText/headingSectionText";
 import HeroAboutUs from "../../components/hero/heroAboutUs";
-import dataVisiMisi from "../../../data/dataVisiMisi";
 import { Container, Box } from "@mui/system";
 import { Typography } from "@mui/material";
 
@@ -27,7 +25,6 @@ const About = () => {
         }}
       >
         <HeroAboutUs />
-        <Article dataInfo={dataVisiMisi} textHeading="Visi & Misi" />
         <Container
           sx={{
             minHeight: "400px",
@@ -53,12 +50,12 @@ const About = () => {
                 textAlign: "center",
               }}
             >
-              Aplikasi ini merupakan sebuah aplikasi berbasis web yang
-              dikembangkan untuk memanagement sampah masyarakat dimana ketika
-              melakukan penyetoran sampah akan memberikan feedback seperti saldo
-              sehingga selain menjadikan masyarakat bisa memanagement sampah
-              mereka juga akan mendapat penghasilan dan lingkungan pun terjaga
-              dengan menggunakan aplikasi ini.
+              Aplikasi ini berbasis web yang dikembangkan untuk memanagement
+              sampah masyarakat dimana ketika melakukan penyetoran sampah akan
+              memberikan keuntungan seperti saldo sehingga selain menjadikan
+              masyarakat bisa memanagement sampah disekitar mereka juga akan
+              mendapat penghasilan dan lingkungan pun terjaga dengan menggunakan
+              aplikasi ini.
             </Typography>
           </Box>
         </Container>

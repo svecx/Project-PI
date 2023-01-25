@@ -1,4 +1,3 @@
-// import Splash from '../../components/splash/Splash'
 import React from "react";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
@@ -34,7 +33,6 @@ const DaurUlang = () => {
         />
         <RecycleWasteInfo />
         <CardBackground />
-        {/* <Splash/> */}
       </Container>
       <Footer />
     </div>

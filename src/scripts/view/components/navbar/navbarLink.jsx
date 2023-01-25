@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@mui/material";
 import navbarLinkItem from "../../../data/navbarLinkItem";
 import { Link, useLocation } from "react-router-dom";
-import CustomButton from "../customButton/customButton";
+// import CustomButton from "../customButton/customButton";
 import { useState, useEffect } from "react";
 
 export default function NavbarLink() {
@@ -51,19 +51,19 @@ export default function NavbarLink() {
           <Link
             to={navigation.to}
             key={index}
-            className={url === navigation.to ? "link-active link" : "link"}
+            className={url === navigation.to ? "linking-active linking" : "linking"}
           >
             {navigation.link}
           </Link>
         );
       })}
-      <CustomButton
+      {/* <CustomButton
         backgroundColor="#CFFE64"
         color="#2E582C"
-        textButton="Kontak"
+        textButton="Cuaca"
         moreBtn={true}
-        navigation="tentang-kami"
-      />
+        navigation="cuaca"
+      /> */}
     </Box>
   );
 }

@@ -13,7 +13,6 @@ const Navbar = () => {
     }
   };
   return (
-    // <ThemeProvider theme={theme}>
     <AppBar
       position="sticky"
       sx={{
@@ -53,7 +52,6 @@ const Navbar = () => {
         </span>
       </Box>
     </AppBar>
-    // </ThemeProvider>
   );
 };
 

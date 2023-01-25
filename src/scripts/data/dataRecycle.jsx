@@ -12,10 +12,10 @@ const dataRecycle = [
     image: "url(./images/b.jpg)",
   },
   {
-    title: "Botol",
+    title: "Kaca",
     content:
       "Sortir kaca bekas sebelum didaur ulang, cuci, lalu dihancurkan, agar bisa diubah menjadi bahan baku yang disebut serpihan. seperti batugamping atau kapur, pasir dan soda. Campuran tersebut kemudian dipanaskan hingga suhu 1426 derajat Celcius, bahan pembuat kaca akan meleleh, cairan cetakan akan mendingin dan menjadi produk kaca baru.",
-    image: "url(./images/a.jpg)",
+    image: "url(./images/c.jpg)",
   },
 ];
 

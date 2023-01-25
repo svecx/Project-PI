@@ -11,7 +11,7 @@ header{
     
     .navigation {
         display: none;
-        .link {
+        .linking {
             font-family: "Manrope";
             font-size: 14px;
             color: #7D7D7D;
@@ -27,7 +27,7 @@ header{
                 color: #2E582C;
             }
         }
-        .link-active{
+        .linking-active{
             border-bottom: 2px solid #2E582C;
             color: #2E582C;
         }
@@ -87,3 +87,25 @@ header{
         }
     }
 }
+a.linking{
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+a.footer-link{
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+a.footer-link:hover{
+    color:#CFFE64;
+    border-bottom: 2px solid #CFFE64;
+}
+Button.btn{
+    background-color: #b2ff00;
+    color: #000 ;
+}
+a.invoice_detail_btn{
+    text-decoration: none;
+    color: #fff;
+  }

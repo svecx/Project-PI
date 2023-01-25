@@ -69,7 +69,7 @@ export default function ConclusionSection() {
             },
           }}
         >
-          Mari wujudkan lingkungan bersih tanpa sampah bersama Daulsa
+          Wujudkan lingkungan bersih tanpa sampah bersama Daulsa
         </Typography>
         <Typography
           sx={{
@@ -93,8 +93,9 @@ export default function ConclusionSection() {
         <CustomButton
           backgroundColor="#CFFE64"
           color="#2E582C"
-          textButton="Tukarkan Sampah"
+          textButton="Lihat Layanan"
           moreBtn={true}
+          navigation="layanan"
         />
       </Box>
     </Container>

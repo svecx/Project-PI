@@ -18,7 +18,7 @@ const Cardimg = ({ backgroundImage }) => {
     transform: "scale(1) translateZ(0)",
     transition: "filter 200ms linear, transform 200ms linear",
   }));
-  return <Cardimg className="card__background"></Cardimg>;
+  return <Cardimg className="carding__background"></Cardimg>;
 };
 
 export default Cardimg;
